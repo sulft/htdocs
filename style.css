@@ -10,3 +10,37 @@
 .form-floating {
     background-color:#F0F4FF;
 }
+
+.d-flex button {
+    margin: 1.5em 0.6em;
+    padding:0.5em 2.4em;
+}
+
+d-flex table {
+    margin: 1em 10em;
+    background-color:#0247FE;
+    color: #0247FE;
+}
+
+.blue {
+    background-color:#0247FE;
+    color: white;
+}
+
+.blue1 {
+    background-color:#678FFE;
+    color: white;
+}
+
+
+/*******************************  LES BOUTONS ***********************************/
+
+.d-flex button {
+    margin: 1.5em 0.6em;
+    padding:0.5em 2.4em;
+}
+
+table .btnedit {
+    color: white;
+    cursor:pointer
+}

@@ -1,5 +1,5 @@
 <?php 
-    function inputElement($afficher,$value) {
+    function textElement($afficher,$value) {
         $element= 
         "
         <div class='form-floating'>
@@ -10,4 +10,15 @@
 
         echo $element;
     }
+
+    //création de boutons
+    function buttonElement($btnid,$styleclass, $text, $name, $attr) {
+        $btn = "
+            <button name='$name' class='$styleclass' id='$btnid'>$text</button>
+        ";
+
+        echo $btn;
+    }
+
 ?>
+
