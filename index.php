@@ -1,6 +1,7 @@
 <?php 
     require_once("../projet_vetement/php/component.php");
     require_once("../projet_vetement/php/db.php");
+    require_once('../projet_vetement/php/operation.php');
 
     Createdb(); /*si erreur Warning: mysqli_connect(): (HY000/1049): Unknown database 'magasinvetement' in C:\xampp\htdocs\projet_vetement\php\db.php on line 22
     Echec de la connexion : Unknown database 'magasinvetement'*/
