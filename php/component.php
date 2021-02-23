@@ -1,9 +1,9 @@
 <?php 
-    function textElement($afficher,$value) {
+    function textElement($name,$afficher,$value) {
         $element= 
         "
         <div class='form-floating'>
-        <textarea class='form-control' value='$value' placeholder='$afficher' id='floatingTextarea2' style='height: 100px'></textarea>
+        <textarea class='form-control' name='$name' value='$value' placeholder='$afficher' id='floatingTextarea2' style='height: 100px'></textarea>
         <label for='floatingTextarea2'>$afficher</label>
         </div>
         ";

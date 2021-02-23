@@ -39,17 +39,17 @@
                     <!-- ensemble des forms -->
                     <div class="py-2">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder='Nom de l"article'>
+                            <input type="text" name='nomArticle' class="form-control" id="floatingInput" placeholder='Nom de l"article'>
                             <label for="floatingInput">Nom de l'article</label>
                         </div>
 
                         <div class="form-floating">
-                            <input type="number" min=0 class="form-control" id="floatingPassword"  placeholder='Prix en euros' placeholder='$afficher' step="any">
+                            <input type="number" min=0 class="form-control" id="floatingPassword" name='prix' placeholder='Prix en euros' placeholder='$afficher' step="any">
                             <label for="floatingPassword">Prix €</label>
                         </div>
                     </div>
                     <div class="pt-2">
-                        <?php textElement("Laissez une description ici..",""); ?>
+                        <?php textElement("text","Laissez une description ici..",""); ?>
                     </div>
 
                     <!-- ensemble des boutons -->
